@@ -1,3 +1,9 @@
+# revision 20780
+# category Package
+# catalog-ctan /macros/latex/contrib/ocgtools
+# catalog-date 2010-05-11 13:42:59 +0200
+# catalog-license lppl1.2
+# catalog-version 0.8
 Name:		texlive-ocgtools
 Version:	0.8
 Release:	1
@@ -88,6 +94,7 @@ apparently similar packages.
 #- source
 %doc %{_texmfdistdir}/source/latex/ocgtools/ocgtools.dtx
 %doc %{_texmfdistdir}/source/latex/ocgtools/ocgtools.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -98,3 +105,5 @@ apparently similar packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
