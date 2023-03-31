@@ -6,7 +6,7 @@
 # catalog-version 0.8
 Name:		texlive-ocgtools
 Version:	0.8
-Release:	11
+Release:	12
 Summary:	Manipulate OCG layers in PDF presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocgtools
