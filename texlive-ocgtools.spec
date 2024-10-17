@@ -9,7 +9,7 @@ Version:	0.8
 Release:	12
 Summary:	Manipulate OCG layers in PDF presentations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ocgtools
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ocgtools
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocgtools.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ocgtools.doc.tar.xz
